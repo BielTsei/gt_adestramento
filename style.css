@@ -32,3 +32,64 @@
   font-family: "Dosis-SemiBold";
   src: url(./fonts/Dosis-SemiBold.ttf);
 }
+
+#texto_logo {
+  font-family: "Dosis-Bold";
+  font-size: 28px;
+}
+
+#inicio {
+  font-family: "Dosis-Regular";
+}
+
+#sobre_mim {
+  font-family: "Dosis-Regular";
+}
+
+#contato {
+  font-family: "Dosis-Regular";
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: #f4ebd9;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #191919;
+}
+
+.background {
+  background-image: url(./imgs/img_3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 120vh;
+}
+
+.sub_titulo {
+  display: inline-block;
+  color: #f4ebd9;
+  margin-top: 20vh;
+  margin-left: 20vw;
+}
+
+.titulo {
+  display: inline-block;
+  margin-left: 15vw;
+  color: #f4ebd9;
+}
+
+.img_background {
+  width: 1920px;
+  height: 1080px;
+}
