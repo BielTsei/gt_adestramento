@@ -33,6 +33,10 @@
   src: url(./fonts/Dosis-SemiBold.ttf);
 }
 
+body {
+  background-color: #f4ebd9;
+}
+
 #texto_logo {
   font-family: "Dosis-Bold";
   font-size: 28px;
@@ -44,6 +48,7 @@
 
 #sobre_mim {
   font-family: "Dosis-Regular";
+  height: 1080px;
 }
 
 #contato {
@@ -69,27 +74,60 @@
 }
 
 .background {
-  background-image: url(./imgs/img_3.jpg);
+  background-image: url(./imgs/img_3.0.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100vw;
   height: 120vh;
 }
 
-.sub_titulo {
-  display: inline-block;
-  color: #f4ebd9;
-  margin-top: 20vh;
-  margin-left: 20vw;
-}
-
-.titulo {
-  display: inline-block;
-  margin-left: 15vw;
-  color: #f4ebd9;
+.background_texto h1,
+h4 {
+  color: #df7b10;
+  width: 290px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .img_background {
-  width: 1920px;
-  height: 1080px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#paragrafo_sobre_mim {
+  font-family: "Dosis-Regular";
+  width: 750px;
+  height: 403px;
+  font-size: 22px;
+  display: flex;
+  margin-top: 15px;
+  line-height: 28px;
+}
+
+#nome {
+  font-family: "Dosis-ExtraBold";
+  font-size: 28px;
+  margin-left: 10vw;
+}
+
+#sobre_mim svg {
+  width: auto;
+  rotate: 180deg;
+  opacity: 80%;
+}
+
+#sobre_mim img {
+  margin-left: 8vw;
+  width: 30vw;
+  margin-top: -400px;
+}
+
+#wave_paragrafo {
+  margin-left: 50vw;
+  margin-top: -340px;
+}
+
+#waves2 svg {
+  margin-top: -1.7px;
+  rotate: 0deg;
 }
