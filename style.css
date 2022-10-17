@@ -48,7 +48,6 @@ body {
 
 #sobre_mim {
   font-family: "Dosis-Regular";
-  height: 1080px;
 }
 
 #contato {
@@ -108,10 +107,10 @@ body {
   font-family: "Dosis-Regular";
   width: 610px;
   height: 403px;
-  font-size: 28px;
+  font-size: 22px;
   display: flex;
   margin-top: 25px;
-  margin-left: 42vw;
+  margin-left: 44vw;
   line-height: 36px;
 }
 
@@ -119,18 +118,18 @@ body {
   font-family: "Dosis-ExtraBold";
   font-size: 38px;
   margin-top: 12vh;
-  margin-left: 49vw;
+  margin-left: 52vw;
 }
 
 #sobre_mim svg {
   width: auto;
   rotate: 180deg;
-  opacity: 80%;
+  opacity: 50%;
 }
 
 #sobre_mim img {
   margin-left: 8vw;
-  width: 30vw;
+  width: 280px;
   margin-top: -400px;
 }
 
@@ -139,7 +138,42 @@ body {
   margin-top: -530px;
 }
 
-#waves2 svg {
-  margin-top: -1.7px;
-  rotate: 0deg;
+.portfolio {
+  background-color: #868279;
+  margin-top: -1.5px;
+}
+
+.portfolio_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.portfolio svg {
+  width: 30px;
+  margin-bottom: 50px;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.portfolio h3 {
+  font-size: 22px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.portfolio img {
+  width: 180px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.imgs {
+  margin: 0px 10vw 0px 10vw;
+  columns: 5;
+  column-gap: 10px;
 }
