@@ -141,6 +141,7 @@ body {
 .portfolio {
   background-color: #868279;
   margin-top: -1.5px;
+  filter: drop-shadow(5px 15px 25px #868279);
 }
 
 .portfolio_titulo {
@@ -173,7 +174,24 @@ body {
 }
 
 .imgs {
-  margin: 0px 10vw 0px 10vw;
+  margin: 0px 15vw 0px 15vw;
   columns: 5;
   column-gap: 10px;
+}
+
+#contato svg {
+  width: 30px;
+}
+
+#titulo_contato {
+  margin-top: 85px;
+  margin-bottom: 15px;
+  margin-left: 13vw;
+  font-size: 46px;
+}
+
+#contato p {
+  margin-left: 13vw;
+  margin-bottom: 15px;
+  font-size: 26px;
 }
