@@ -179,8 +179,9 @@ body {
   column-gap: 10px;
 }
 
-#contato svg {
-  width: 30px;
+#contato i {
+  font-size: 35px;
+  color: #df7b10;
 }
 
 #titulo_contato {
@@ -191,7 +192,5 @@ body {
 }
 
 #contato p {
-  margin-left: 13vw;
-  margin-bottom: 15px;
   font-size: 26px;
 }
