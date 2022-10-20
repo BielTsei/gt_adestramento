@@ -52,13 +52,13 @@ body {
 
 #contato {
   width: 220px;
-  height: 220px;
+  /*height: 220px;*/
   font-family: "Dosis-Regular";
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 170px;
+  margin-left: 130px;
   margin-top: 75px;
 }
 
@@ -113,12 +113,12 @@ body {
 
 #paragrafo_sobre_mim {
   font-family: "Dosis-Regular";
-  width: 610px;
+  width: 500px;
   height: 403px;
   font-size: 22px;
   display: flex;
   margin-top: 25px;
-  margin-left: 44vw;
+  margin-left: 49vw;
   line-height: 36px;
 }
 
@@ -126,7 +126,7 @@ body {
   font-family: "Dosis-ExtraBold";
   font-size: 38px;
   margin-top: 12vh;
-  margin-left: 52vw;
+  margin-left: 53vw;
 }
 
 #sobre_mim svg {
@@ -200,4 +200,41 @@ body {
 #contato p {
   font-size: 26px;
   margin-bottom: 7px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario input,
+textarea {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.formulario fieldset label {
+  width: 50px;
+  font-family: "Dosis-Extra-Light";
+  font-size: 22px;
+}
+
+#mensagem {
+  height: 120px;
+}
+
+form button {
+  font-family: "Dosis-SemiBold";
+  font-size: 24px;
+  background-color: #df7b10;
+  border: 0px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
