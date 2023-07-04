@@ -50,18 +50,6 @@ body {
   font-family: "Dosis-Regular";
 }
 
-#contato {
-  width: 220px;
-  /*height: 220px;*/
-  font-family: "Dosis-Regular";
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-left: 130px;
-  margin-top: 75px;
-}
-
 .navbar img {
   width: 50px;
   height: 50px;
@@ -139,6 +127,7 @@ body {
   margin-left: 8vw;
   width: 280px;
   margin-top: -400px;
+  transform: rotate(7deg);
 }
 
 #wave_paragrafo {
@@ -148,7 +137,7 @@ body {
 
 .portfolio {
   background-color: #868279;
-  margin-top: -1.5px;
+  margin-top: -3.5px;
   filter: drop-shadow(5px 15px 25px #868279);
 }
 
@@ -187,34 +176,42 @@ body {
   column-gap: 10px;
 }
 
-#contato i {
-  font-size: 35px;
+#contato {
+  display: inline-flex;
+  height: 650px;
+  align-items: center;
+}
+
+.icons {
+  font-size: 45px;
   color: #df7b10;
 }
 
 #titulo_contato {
-  font-size: 46px;
+  font-size: 75px;
   margin-bottom: 10px;
+  font-family: "Dosis-ExtraBold";
 }
 
 #contato p {
-  font-size: 26px;
+  font-size: 35px;
   margin-bottom: 7px;
+  font-family: "Dosis-Regular";
 }
 
 .formulario {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 .formulario input,
 textarea {
-  width: 200px;
+  width: 400px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 6px;
   margin-top: 15px;
+  border: solid 2px hsla(0, 0%, 10%, 0.7);
 }
 
 .formulario fieldset label {
@@ -224,7 +221,9 @@ textarea {
 }
 
 #mensagem {
-  height: 120px;
+  height: 200px;
+  border-radius: 6px;
+  border: solid 2px hsla(0, 0%, 10%, 0.7);
 }
 
 form button {
