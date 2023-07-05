@@ -175,8 +175,93 @@ body {
   columns: 5;
   column-gap: 10px;
 }
-
 #contato {
+  font-family: "Dosis-Regular";
+  font-size: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 500px;
+  margin-top: 90px;
+  padding-bottom: 25px;
+}
+
+#titulo_contato {
+  font-size: 60px;
+  font-family: "Dosis-ExtraBold";
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato {
+  background-color: blue;
+  padding-bottom: 10px;
+  font-size: 28px;
+}
+
+.icons {
+  font-size: 40px;
+  color: #df7b10;
+}
+
+form {
+  margin-top: 105px;
+  /*margin-left: 25%;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+  padding: 15px 50px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+form input {
+  padding: 15px;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border: 0px;
+  border-radius: 7px;
+  width: 20vw;
+}
+
+form textarea {
+  padding: 10px;
+  outline: none;
+  border: 0px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+form button {
+  font-family: "Dosis-SemiBold";
+  font-size: 24px;
+  background-color: #df7b10;
+  border: 0px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/*#contato {
   display: inline-flex;
   height: 650px;
   align-items: center;
@@ -203,6 +288,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-family: "Dosis-Regular";
 }
 
 .formulario input,
@@ -224,9 +311,9 @@ textarea {
   height: 200px;
   border-radius: 6px;
   border: solid 2px hsla(0, 0%, 10%, 0.7);
-}
+}*/
 
-form button {
+/*form button {
   font-family: "Dosis-SemiBold";
   font-size: 24px;
   background-color: #df7b10;
@@ -236,4 +323,4 @@ form button {
   width: 150px;
   margin-top: 20px;
   margin-bottom: 30px;
-}
+}*/
