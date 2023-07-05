@@ -125,7 +125,7 @@
     </div>
 
     <div id="contato">
-      <div class="formulario">
+      <div class="contact">
         <h2 id="titulo_contato">Contato</h2>
         <p class="contato">11 6666-5555</p>
         <p class="contato">11 98888-7777</p>
@@ -139,16 +139,29 @@
       <form action="">
         <fieldset class="formulario">
           <div>
-            <strong><label for="nome">Nome</label></strong>
-            <input type="text" name="nome" id="nome" required />
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              placeholder="Digite seu nome e sobrenome"
+              name="nome"
+              id="nome"
+              required
+            />
           </div>
           <div>
-            <strong><label for="email">E-mail</label></strong>
-            <input type="email" name="email" id="email" required />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              placeholder="Digite sei email"
+              name="email"
+              id="email"
+              required
+            />
           </div>
           <div>
-            <strong><label for="mensagem">Mensagem</label></strong>
+            <label for="mensagem">Mensagem</label>
             <textarea
+              placeholder="Escreva sua mensagem"
               name="mensagem"
               id="mensagem"
               cols="30"
