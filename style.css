@@ -84,19 +84,19 @@ html {
 }
 
 #titulo {
-  margin-left: 18vw;
+  margin-left: 16.5vw;
   padding-top: 28vh;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 3.8rem;
   float: left;
   vertical-align: top;
 }
 
 #sub_titulo {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   padding-top: 35vh;
-  margin-left: 16.8vw;
+  margin-left: 13.6vw;
 }
 
 .img_background {
